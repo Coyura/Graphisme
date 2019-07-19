@@ -27,7 +27,6 @@ class monPainter (QWidget):
         p.drawEllipse(20,20,taille-40, taille-40)
 
         p.save()
-        
 
         p.translate(taille/2, taille/2)
         p.rotate(135+(self.valeur*270/100))
